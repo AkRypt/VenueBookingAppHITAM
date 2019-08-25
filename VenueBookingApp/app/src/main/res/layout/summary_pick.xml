@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/summarypick_bg">
+
+    <TextView
+        android:id="@+id/sumTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick a day and venue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/summaryPickDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sumTop"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/left_background"
+        android:textSize="20sp"
+        android:text="Choose a Date"
+        android:elevation="4dp" />
+
+    <ListView
+        android:id="@+id/summaryPickListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/summaryPickDate"
+        android:layout_margin="10dp"
+        android:layout_marginTop="6dp"/>
+
+    <ProgressBar
+        android:id="@+id/summarPickLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/roomPic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:color/black"
+        android:src="@drawable/ic_loading"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:id="@+id/roomName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/roomPic"
+        android:text="Loading..."
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:elevation="2dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/exo"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/roomBookBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/roomPic"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentEnd="true"
+        android:elevation="4dp"
+        android:background="@drawable/back_fab"
+        android:text="Book"
+        android:textColor="@android:color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/roomName"
+        android:background="@android:color/darker_gray"/>
+
+    <ListView
+        android:id="@+id/roomBookingsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/roomName"/>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/roomName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+</RelativeLayout>

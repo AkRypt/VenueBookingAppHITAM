@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/entryBookerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/left_background"
+        android:padding="10dp"
+        android:hint="Enter name here"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/entryBookerRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entryBookerName"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/left_background"
+        android:padding="10dp"
+        android:hint="Enter role here"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/entryBookerNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entryBookerName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/left_background"
+        android:padding="10dp"
+        android:hint="Enter Ph No."
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/entryBookerDept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entryBookerRole"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/left_background"
+        android:padding="10dp"
+        android:hint="Enter department here"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/entryBookerPurpose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entryBookerDept"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/left_background"
+        android:padding="10dp"
+        android:hint="Enter Purpose Here"
+        android:inputType="textCapSentences"/>
+
+    <TextView
+        android:id="@+id/entryBookerDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entryBookerPurpose"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/left_background"
+        android:textSize="20sp"
+        android:text="Date"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entryBookerDate"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:text="From Hour: "/>
+
+    <TextView
+        android:id="@+id/entryBookerTime1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entryBookerDate"
+        android:layout_toEndOf="@id/from"
+        android:layout_marginTop="10dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/left_background"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:hint="Start"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entryBookerDate"
+        android:layout_toEndOf="@id/entryBookerTime1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:text="To Hour: "/>
+
+    <TextView
+        android:id="@+id/entryBookerTime2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entryBookerDate"
+        android:layout_toEndOf="@id/to"
+        android:layout_marginTop="10dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/left_background"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:hint="End"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/entryBookBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/from"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/back_fab"
+        android:textColor="@android:color/white"
+        android:text="Book Now"/>
+
+</RelativeLayout>

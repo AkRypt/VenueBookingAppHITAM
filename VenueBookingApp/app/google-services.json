@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "727889620144",
+    "firebase_url": "https://venuebookinghitam.firebaseio.com",
+    "project_id": "venuebookinghitam",
+    "storage_bucket": "venuebookinghitam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727889620144:android:102cdab90bf2b1b9",
+        "android_client_info": {
+          "package_name": "com.example.venuebooking_hitam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727889620144-uen3epp7smq1dk8v0agimqc2d5p42fu3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.venuebooking_hitam",
+            "certificate_hash": "bed31baedcc82eff0d38b968e27f20ff059af251"
+          }
+        },
+        {
+          "client_id": "727889620144-1pd5727nagbkik7qtj1naj51sredrmo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtoleptHjYJ5_h9X0HhZ0zyzSYrvY-qig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727889620144-1pd5727nagbkik7qtj1naj51sredrmo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

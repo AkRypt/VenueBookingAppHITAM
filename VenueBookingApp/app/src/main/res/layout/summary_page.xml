@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="@drawable/summary_bg">
+
+    <TextView
+        android:id="@+id/summaryPageVenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:text="Venue Name"/>
+
+    <TextView
+        android:id="@+id/summaryPageDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/summaryPageVenue"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp"
+        android:text="Date"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/summaryPageDate"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:id="@+id/tableH1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <View
+            android:id="@+id/tableV1"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_above="@id/tableHBottom"
+            android:background="@android:color/black"/>
+
+        <View
+            android:id="@+id/tableV2"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_above="@id/tableHBottom"
+            android:layout_marginStart="100dp"
+            android:background="@android:color/black"/>
+
+        <View
+            android:id="@+id/tableVR"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@id/tableHBottom"
+            android:background="@android:color/black"/>
+
+        <View
+            android:id="@+id/tableH2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tableH1"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/black"/>
+
+        <View
+            android:id="@+id/tableH3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tableH2"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/black"/>
+
+        <View
+            android:id="@+id/tableH4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tableH3"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/black"/>
+
+        <View
+            android:id="@+id/tableH5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tableH4"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/black"/>
+
+        <View
+            android:id="@+id/tableH6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tableH5"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/black"/>
+
+        <View
+            android:id="@+id/tableH7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tableH6"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/black"/>
+
+        <View
+            android:id="@+id/tableH8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tableH7"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/black"/>
+
+        <View
+            android:id="@+id/tableHBottom"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tableH8"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/black"
+            android:text="1st Hour"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tableH2"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/black"
+            android:text="2nd Hour"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tableH3"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/black"
+            android:text="3rd Hour"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tableH4"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/black"
+            android:text="4th Hour"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tableH5"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/black"
+            android:text="5th Hour"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tableH6"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/black"
+            android:text="6th Hour"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tableH7"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/black"
+            android:text="7th Hour"/>
+
+        <TextView
+            android:id="@+id/slot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tableH1"
+            android:layout_toEndOf="@id/tableV2"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="#1dd1a1"
+            android:text="FREE"
+            android:onClick="goToTimeSlot"/>
+
+        <TextView
+            android:id="@+id/slot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tableH2"
+            android:layout_toEndOf="@id/tableV2"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="#1dd1a1"
+            android:text="FREE"
+            android:onClick="goToTimeSlot"/>
+
+        <TextView
+            android:id="@+id/slot3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tableH3"
+            android:layout_toEndOf="@id/tableV2"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="#1dd1a1"
+            android:text="FREE"
+            android:onClick="goToTimeSlot"/>
+
+        <TextView
+            android:id="@+id/slot4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tableH4"
+            android:layout_toEndOf="@id/tableV2"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="#1dd1a1"
+            android:text="FREE"
+            android:onClick="goToTimeSlot"/>
+
+        <TextView
+            android:id="@+id/slot5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tableH5"
+            android:layout_toEndOf="@id/tableV2"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="#1dd1a1"
+            android:text="FREE"
+            android:onClick="goToTimeSlot"/>
+
+        <TextView
+            android:id="@+id/slot6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tableH6"
+            android:layout_toEndOf="@id/tableV2"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="#1dd1a1"
+            android:text="FREE"
+            android:onClick="goToTimeSlot"/>
+
+        <TextView
+            android:id="@+id/slot7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tableH7"
+            android:layout_toEndOf="@id/tableV2"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="#1dd1a1"
+            android:text="FREE"
+            android:onClick="goToTimeSlot"/>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/summLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

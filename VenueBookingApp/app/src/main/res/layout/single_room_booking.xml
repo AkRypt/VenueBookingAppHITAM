@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/bookerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:text="Booker Name"/>
+
+    <TextView
+        android:id="@+id/bookerRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookerName"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="16dp"
+        android:text="Role"/>
+
+    <TextView
+        android:id="@+id/bookerDept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookerRole"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="16dp"
+        android:text="Department"/>
+
+    <TextView
+        android:id="@+id/bookerPurpose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookerDept"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="10dp"
+        android:text="Purpose"/>
+
+    <TextView
+        android:id="@+id/bookerDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="Date"/>
+
+    <TextView
+        android:id="@+id/bookerTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookerDate"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@android:color/holo_red_light"
+        android:text="Time slot"/>
+
+    <TextView
+        android:id="@+id/bookerNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookerTime"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="10dp"
+        android:text="Number"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

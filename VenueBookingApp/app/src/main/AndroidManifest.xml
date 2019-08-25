@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.venuebooking_hitam">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/venue_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/venue_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginPage"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+        <activity android:name=".RoomsPage"
+            android:label="Venues"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".RoomDetails"
+            android:label="Venue Details"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".RoomBookingPage"
+            android:label="Book This Room"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".SummaryPickDate"
+            android:label="Pick A Day"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".SummaryPage"
+            android:label="Booked Slots"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".InfoPage"
+            android:screenOrientation="portrait"
+            android:label="About App"/>
+    </application>
+
+</manifest>
