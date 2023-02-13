@@ -4,4 +4,4 @@ This app was made to maintain and control the bookings for events at HITAM. It g
 
 ## Screenshots
 
-<img src="/screenshots/splashscreen.jpeg" alt="Splash Screen" style="width: 300px"> <img src="/screenshots/mainmenu.jpeg" alt="Main Menu" style="width: 300px">
+<img src="/VenueScreenshots/login.jpeg" alt="Splash Screen" style="width: 300px"> <img src="/VenueScreenshots/hitam.jpeg" alt="Main Menu" style="width: 300px">
