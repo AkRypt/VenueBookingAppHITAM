@@ -1,3 +1,7 @@
 # Venue Booking App [HITAM]
 
-This is an app used to book venues such as Seminar Halls and Classrooms for a particular event on a particular date such that other people cannot book the same venue on the same day.
+This app was made to maintain and control the bookings for events at HITAM. It gets tough to book venues such as classrooms, labs, halls, theatres, etc.,. without the possibility of multiple clashes happening between events and timings. This app helps prevent those clashes and keeps a neat organised schedule for all venues and events and information.
+
+## Screenshots
+
+<img src="/screenshots/splashscreen.jpeg" alt="Splash Screen" style="width: 300px"> <img src="/screenshots/mainmenu.jpeg" alt="Main Menu" style="width: 300px">
